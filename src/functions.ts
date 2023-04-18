@@ -79,7 +79,7 @@ export class SortedArray {
 	}
 }
 
-// 3.  Generate a file
+// Task 3.  Generate a file
 // Notes: the purpose of this question is to generate and download a file from your browser, not your backend
 
 // - Input : specify the number of megabytes to be generated
@@ -107,7 +107,3 @@ export const generateFile = (size: number) => {
 	link.click();
 	URL.revokeObjectURL(fileUrl);
 };
-
-// function MyComponent() {
-// 	return <button onClick={generateFile}>Generate file</button>;
-// }
