@@ -61,7 +61,7 @@ function App() {
 	return (
 		<div className='main'>
 			<h1>Evolany Coding Test</h1>
-			<a href=''>View the code by clicking here</a>
+			<a href='https://github.com/lovegroa/evolany/blob/main/src/functions.ts'>View the code by clicking here</a>
 			<div className='App'>
 				<div className='container'>
 					<form onSubmit={createPermutations}>
